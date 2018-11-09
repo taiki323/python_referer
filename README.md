@@ -3,14 +3,14 @@
 h, w, n = [int(x) for x in input_lines.split(" ")]
 print(' '.join(map(str,table[i])))
 
-[[0] * 3 for x in range(2)] ⇒[[0, 0, 0], [0, 0, 0]]
+[[0] * 3 for x in range(2)] ⇒[[0, 0, 0], [0, 0, 0]]   
 
-while True:
-    try:
-        input_lines = input()
-        print(input_lines)
-    except EOFError:
-        break
+while True:   
+    try:   
+        input_lines = input()   
+        print(input_lines)   
+    except EOFError:   
+        break   
 
 リスト
 list.append(a) #末尾にaを追加    
