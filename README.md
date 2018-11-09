@@ -1,7 +1,7 @@
 # python_referer
 
 h, w, n = [int(x) for x in input_lines.split(" ")]
-
+print(' '.join(map(str,table[i])))
 
 [[0] * 3 for x in range(2)] ⇒[[0, 0, 0], [0, 0, 0]]
 
@@ -11,7 +11,8 @@ while True:
         print(input_lines)
     except EOFError:
         break
-        
+
+リスト
 list.append(a) #末尾にaを追加    
 list.extend([a]) #末尾にaの要素を追加   
 list = list + list  #extendと同じ    
@@ -26,3 +27,10 @@ list.count(1) #指定要素の数
 list.sort()    
 list.reverse()    
     
+numpy
+np.zeros([2,2], dtype=int)
+a.resape(-1)
+np.sort(a)
+np.append(a, 1)
+np.insert(a,1,"A")
+
