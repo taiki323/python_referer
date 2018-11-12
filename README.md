@@ -27,10 +27,10 @@ list.count(1) #指定要素の数
 list.sort()    
 list.reverse()    
     
-numpy
-np.zeros([2,2], dtype=int)
-a.resape(-1)
-np.sort(a)
-np.append(a, 1)
-np.insert(a,1,"A")
+numpy   
+np.zeros([2,2], dtype=int)   
+a.resape(-1)   
+np.sort(a)   
+np.append(a, 1)   
+np.insert(a,1,"A")   
 
