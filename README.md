@@ -1,7 +1,7 @@
 # python_referer
 
-h, w, n = [int(x) for x in input_lines.split(" ")]
-print(' '.join(map(str,table[i])))
+h, w, n = [int(x) for x in input_lines.split(" ")]   
+print(' '.join(map(str,table[i])))   
 
 [[0] * 3 for x in range(2)] ⇒[[0, 0, 0], [0, 0, 0]]   
 
